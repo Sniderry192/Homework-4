@@ -112,5 +112,13 @@ def z_score(x, mu, sigma):
     z = (x - mu) / sigma
     
     return z # Place the calculated z-score result between the return statement and this comment so it will be returned by the z_score function
+
+def z_score_test():
     
-test_z_score_function()
+    mu = mean(population1)
+    sigma = stdev(population1, mu)
+    x = population1[0]
+    
+    print ("The Z Score value is: ", z_score(x, mu, sigma))
+    
+z_score_test()
