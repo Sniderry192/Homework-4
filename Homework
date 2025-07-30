@@ -119,6 +119,6 @@ def z_score_test():
     sigma = stdev(population1, mu)
     x = population1[0]
     
-    print ("The Z Score value is: ", z_score(x, mu, sigma))
+    print ("The Z Score value of ", x, " is: ", z_score(x, mu, sigma))
     
 z_score_test()
